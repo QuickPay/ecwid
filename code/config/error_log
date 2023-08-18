@@ -1,0 +1,158 @@
+[06-Jan-2021 05:58:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 05:58:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:00:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:01:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 8
+[06-Jan-2021 06:01:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:02:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:03:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:03:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:05:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:05:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:08:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:08:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:08:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:08:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:16:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:17:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/nirvir/public_html/portfolio1/ecwid_apps/quickpayecwid/config/config.php on line 7
+[06-Jan-2021 06:30:41 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[06-Jan-2021 06:30:45 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
