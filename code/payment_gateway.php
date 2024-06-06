@@ -27,11 +27,9 @@
 	$orderId = $result['cart']['order']['orderNumber'];
 	$orderTotal = $result['cart']['order']['total'];
 	$orderCurrency=$result['cart']['currency'];
-	//$orderCurrency="DKK";
 	$mySecTok = $result['token'];
 	$orderRandNumber = $orderId.rand(1000,99999);
 	$myTransId = $result['cart']['order']['referenceTransactionId'];
-	
 	$cancelUrl  = $result['returnUrl'];
 	
 	$qForStoreDetails = mysqli_query($con,"SELECT * FROM merchant_details WHERE mer_ecwid_store_id='".$myStoreId."'");
