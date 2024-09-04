@@ -24,8 +24,10 @@
 	
 	$myStoreId = $result['storeId'];
 	$myReturnUrl = $result['returnUrl'];
+	$orderNumber = $result['cart']['order']['id'];
 	$orderId = $result['cart']['order']['orderNumber'];
 	$orderTotal = $result['cart']['order']['total'];
+	$orderEmail = $result['cart']['order']['email'];
 	$orderCurrency=$result['cart']['currency'];
 	$mySecTok = $result['token'];
 	$orderRandNumber = $orderId.rand(1000,99999);
@@ -54,7 +56,7 @@
 		]);
 		
 		$quickPayPaymentId = $payment->getId();
-		$returnUrl  = "https://portfolio.maven-infotech.com/ecwid_apps/quickpayecwid/return_url.php?id=$myTransId&orId=$orderId&sr_id=$myStoreId&my_tok=$mySecTok&orderrandomnumber=$orderRandNumber&qppaymentid=$quickPayPaymentId";
+		$returnUrl  = "https://portfolio.maven-infotech.com/ecwid_apps/quickpayecwid/return_url.php?id=$myTransId&orId=$orderId&sr_id=$myStoreId&my_tok=$mySecTok&orderrandomnumber=$orderRandNumber&qppaymentid=$quickPayPaymentId&email=$orderEmail&ordernumber=$orderNumber";
 		
 		if($autoCap =="2"){
 			$link = $qp->payments()->link($payment->getId(),[
@@ -73,6 +75,11 @@
 		}
 
 		$url = $link->getUrl();
+		
+		$paymentURLArray = array("payment_url" => $url,"storeId"=>$myStoreId,"orderId"=>$orderId);
+        $paymentURLArrayJson = json_encode($paymentURLArray);
+        file_put_contents('logs/payment_url_resposne_'.date("Y-m-d").'.log', $paymentURLArrayJson, FILE_APPEND);
+		
 		header("Location:".$url);
 		
 		if ($qp->validateCallback()){

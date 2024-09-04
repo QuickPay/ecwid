@@ -13,6 +13,8 @@
 	$orderId = $_GET['orId'];
 	$orderRandNumber = $_GET['orderrandomnumber'];
 	$qpPaymentId = $_GET['qppaymentid'];
+	$orderEmail = $_GET['email'];
+	$orderNumber = $_GET['ordernumber'];
 	
 	$qForStoreDetails = mysqli_query($con,"SELECT mer_api_key,mer_pw_api FROM merchant_details WHERE mer_ecwid_store_id='".$getStoreId."'");
 	$rForCountStore=mysqli_num_rows($qForStoreDetails);
@@ -39,9 +41,9 @@
 		$qForCheckOrderExists = mysqli_query($con,"SELECT * FROM orders WHERE storeId='".$getStoreId."' AND orderId='".$orderId."'");
 		$countOrderExists = mysqli_num_rows($qForCheckOrderExists);
 		if($countOrderExists == 0){
-			$addNewOrderQuery = mysqli_query($con,"INSERT INTO orders(storeId, transactionId, paymentToken, orderId, orderRandomNumber, qpPaymentId, qpPaymentType, qpPaymentStatus,orderTotal) VALUES ('".$getStoreId."','".$getTranId."','".$token."','".$orderId."','".$orderRandNumber."','".$qpPaymentId."','".$lastQpType."','".$lastQpStatusCode."','".$lastOrderAmount."')");
+			$addNewOrderQuery = mysqli_query($con,"INSERT INTO orders(storeId, transactionId, paymentToken, orderId, orderRandomNumber, qpPaymentId, qpPaymentType, qpPaymentStatus,orderTotal, orderEmail, orderNumber) VALUES ('".$getStoreId."','".$getTranId."','".$token."','".$orderId."','".$orderRandNumber."','".$qpPaymentId."','".$lastQpType."','".$lastQpStatusCode."','".$lastOrderAmount."','".$orderEmail."','".$orderNumber."')");
 		}else{
-			$updateExistingOrderQuery = mysqli_query($con,"UPDATE orders SET transactionId='".$getTranId."',paymentToken='".$token."',orderRandomNumber='".$orderRandNumber."',qpPaymentId='".$qpPaymentId."',qpPaymentType='".$lastQpType."',qpPaymentStatus='".$lastQpStatusCode."',orderTotal='".$lastOrderAmount."' WHERE storeId='".$getStoreId."' AND orderId='".$orderId."'");
+			$updateExistingOrderQuery = mysqli_query($con,"UPDATE orders SET transactionId='".$getTranId."',paymentToken='".$token."',orderRandomNumber='".$orderRandNumber."',qpPaymentId='".$qpPaymentId."',qpPaymentType='".$lastQpType."',qpPaymentStatus='".$lastQpStatusCode."',orderTotal='".$lastOrderAmount."',orderEmail='".$orderEmail."',,orderNumber='".$orderNumber."' WHERE storeId='".$getStoreId."' AND orderId='".$orderId."'");
 		}
 		
 		$crPaymentStatus = "AWAITING_PAYMENT";
